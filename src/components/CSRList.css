@@ -1,0 +1,85 @@
+/* Revoke.css */
+
+.info-container {
+    padding: 20px;
+  }
+  
+  .info-table {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .info-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-row.header {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+  }
+  
+  .info-cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .info-cell:first-child {
+    flex: 2; /* Adjust as needed to increase spacing */
+  }
+  
+  .info-cell:not(:first-child) {
+    margin-left: 20px; /* Add spacing between cells */
+  }
+  
+  .revoke-button {
+    background-color: purple;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .revoke-button:hover {
+    background-color: darkviolet;
+  }
+  
+  .key-input-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .key-input-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .key-input-container button {
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .key-input-container button:hover {
+    background-color: darkviolet;
+  }
+  

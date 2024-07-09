@@ -1,0 +1,263 @@
+/* /* Revoke.css 
+
+.info-container {
+  padding: 20px;
+}
+
+.info-table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-row.header {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+.info-cell {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.info-cell:first-child {
+  flex: 2; /* Adjust as needed to increase spacing 
+}
+
+.info-cell:not(:first-child) {
+  margin-left: 20px; /* Add spacing between cells 
+}
+
+.revoke-button {
+  background-color: purple;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.revoke-button:hover {
+  background-color: darkviolet;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background 
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
+
+.key-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.key-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.key-submit:hover {
+  background-color: darkviolet;
+}
+ */
+
+/* Revoke.css */
+
+.info-container {
+  padding: 20px;
+}
+
+.info-table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-row.header {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+.info-cell {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.info-cell:first-child {
+  flex: 2; /* Adjust as needed to increase spacing */
+}
+
+.info-cell:not(:first-child) {
+  margin-left: 20px; /* Add spacing between cells */
+}
+
+.revoke-button {
+  background-color: purple;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.revoke-button:hover {
+  background-color: darkviolet;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
+
+.key-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.key-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.key-submit:hover {
+  background-color: darkviolet;
+}
+
+/* Styling for Search and Filter */
+.search-container,
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"],
+.filter-container input[type="text"],
+.search-container input[type="number"],
+.filter-container input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-container button,
+.filter-container button {
+  padding: 10px 20px;
+  background-color: #6a1b9a; /* Purple color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container button:hover,
+.filter-container button:hover {
+  background-color: #8e24aa; /* Darker purple color on hover */
+}
